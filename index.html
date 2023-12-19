@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500;6..12,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/ssscript.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
@@ -27,7 +27,11 @@
                 </div>
                 <div class="input-box">
                     <span class="label">Fascia d'etá</span>
-                    <input type="select">
+                    <select name="age-range" id="age">
+                        <option value="adult">Piú di 18 anni</option>
+                        <option value="minor">Meno di 18 anni</option>
+                        <option value="over">Over 65</option>
+                    </select>
                 </div>
             </div> 
             
@@ -55,10 +59,10 @@
                                 <th>Costo biglietto</th>
                             </tr>
                             <tr>
-                                <td>Biglietto standard</td>
-                                <td>Riga</td>
-                                <td>Riga</td>
-                                <td>Riga</td>
+                                <td class="ticket-type">Biglietto standard</td>
+                                <td>5</td>
+                                <td>92911</td>
+                                <td class="ticket-price">prezzo</td>
                             </tr>
                         </table>
                     </div>

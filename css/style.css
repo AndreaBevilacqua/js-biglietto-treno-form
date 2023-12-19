@@ -10,12 +10,20 @@ body {
     text-align: center;
 }
 
-input {
+input{
     height: 28px;
     width: 200px;
     border-color: #B71139;
     border-radius: 5px;
 }
+
+#age {
+    border: 1px solid red;
+    border-radius: 5px;
+    height: 33px;
+    width: 200px;
+}
+
 
 .input-box {
     display: flex;
@@ -119,4 +127,9 @@ table {
     text-align: left;
     line-height: 3;
     font-size: 20px;
+}
+
+.client-name {
+    font-weight: bold;
+    font-size: 30px;
 }
