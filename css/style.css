@@ -1,0 +1,122 @@
+body {
+    background-color: #B71139;
+    padding: 20px ;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+input {
+    height: 28px;
+    width: 200px;
+    border-color: #B71139;
+    border-radius: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    font-size: 1.5rem;
+    color: #046463;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+.user-input-card {
+    min-height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding: 20px 0;
+}
+
+.user-input-info {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card-buttons button {
+    margin-top: 80px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    color: #046463;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.card-buttons button:hover {
+    border-color: red;
+}
+
+.ticket {
+    min-height: 100px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px black;
+    padding: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 1px 1px 5px black;
+    margin-top: 70px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #046463;
+    text-align: left;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ticket-content {
+    display: flex;
+    border: 1px solid grey;
+}
+
+.left-ticket {
+    flex-basis: 30%;
+    background-color: lightgrey;
+    border-right: 1px solid grey;
+    padding: 14px;
+}
+
+.right-ticket {
+    flex-basis: 70%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    line-height: 3;
+    font-size: 20px;
+}

@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto Treno</title>
-    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500;6..12,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/ssscript.js"></script>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+        <div class="user-input-card">
+            <div class="user-input-info">
+                <div class="input-box">
+                    <span class="label">Nome e Cognome</span>
+                    <input type="text">
+                </div>
+                <div class="input-box">
+                    <span class="label">Km da percorrere</span>
+                    <input type="text">
+                </div>
+                <div class="input-box">
+                    <span class="label">Fascia d'etá</span>
+                    <input type="select">
+                </div>
+            </div> 
+            
+            <div class="card-buttons">
+                <button id="create">Genera</button>
+                <button id="cancel">Annulla</button>
+            </div>
+        </div>
+
+        <section id="ticket-info">
+            <h2>IL TUO BIGLIETTO</h2>
+            <div class="ticket">
+                <h3>dettagli del passeggero</h3>
+                <div class="ticket-content">
+                    <div class="left-ticket">
+                        <h4>nome passeggero</h4>
+                        <span class="client-name"></span>
+                    </div>
+                    <div class="right-ticket">
+                        <table>
+                            <tr>
+                                <th>Offerta</th>
+                                <th>Carrozza</th>
+                                <th>Codice CP</th>
+                                <th>Costo biglietto</th>
+                            </tr>
+                            <tr>
+                                <td>Biglietto standard</td>
+                                <td>Riga</td>
+                                <td>Riga</td>
+                                <td>Riga</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>   
+            </div>
+
+        </section>
+        </div>
+    </div>
 </body>
 </html>
