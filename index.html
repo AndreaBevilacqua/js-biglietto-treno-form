@@ -19,16 +19,16 @@
             <div class="user-input-info">
                 <div class="input-box">
                     <span class="label">Nome e Cognome</span>
-                    <input type="text">
+                    <input type="text" id="name">
                 </div>
                 <div class="input-box">
                     <span class="label">Km da percorrere</span>
-                    <input type="text">
+                    <input type="text" id="kms" min="1" max="1000">
                 </div>
                 <div class="input-box">
                     <span class="label">Fascia d'etá</span>
                     <select name="age-range" id="age">
-                        <option value="adult">Piú di 18 anni</option>
+                        <option selected value="">Adulto</option>
                         <option value="minor">Meno di 18 anni</option>
                         <option value="over">Over 65</option>
                     </select>
@@ -48,7 +48,7 @@
                 <div class="ticket-content">
                     <div class="left-ticket">
                         <h4>nome passeggero</h4>
-                        <span class="client-name"></span>
+                        <span id="passenger-name" class="client-name"></span>
                     </div>
                     <div class="right-ticket">
                         <table>
@@ -59,10 +59,10 @@
                                 <th>Costo biglietto</th>
                             </tr>
                             <tr>
-                                <td class="ticket-type">Biglietto standard</td>
+                                <td id="ticket-type"></td>
                                 <td>5</td>
                                 <td>92911</td>
-                                <td class="ticket-price">prezzo</td>
+                                <td id="ticket-price"></td>
                             </tr>
                         </table>
                     </div>
